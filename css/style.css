@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1260px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("/img/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero__inner {
+  max-width: 600px;
+  width: 100%;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color:  antiquewhite;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  border-radius: 10px;
+}
+
+.hero__input {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+.hero__btn {
+  padding: 10px;
+  align-items: center;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.sub-hero__div h2 {
+  font-size: 18px;
+}
+
+
+.sub-hero__div p {
+  font-size: 12px;
+}
+
+.hero__list {
+  max-width: 350px;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.hero__tittle {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.text-p {
+  font-size: 24px;
+  font-style: italic;
+  margin: 0;
+}
+
+.universities {
+  width: 150px;
+  height: 30px;
+  border: none;
+}
+
